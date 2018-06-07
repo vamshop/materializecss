@@ -1,4 +1,4 @@
-# MaterializeCSS Theme for Croogo
+# MaterializeCSS Theme for VamShop
 
 ## Installation
 
@@ -7,5 +7,5 @@ You can install this plugin into your CakePHP application using [composer](http:
 The recommended way to install composer packages is:
 
 ```
-composer maiconpinto/croogo-materializecss-theme
+composer require vamshop/materializecss
 ```

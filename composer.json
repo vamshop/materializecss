@@ -1,6 +1,6 @@
 {
-    "name": "maiconpinto/croogo-materializecss-theme",
-    "description": "MaterializeCSS plugin for CakePHP",
+    "name": "vamshop/materializecss",
+    "description": "MaterializeCSS plugin for VamShop",
     "type": "cakephp-plugin",
     "require": {
         "php": ">=5.5.9",

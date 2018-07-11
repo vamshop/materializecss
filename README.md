@@ -15,7 +15,7 @@ bin/cake ext activate theme MaterializeCSS
 
 Activate default theme:
 
-bin/cake ext activate theme Croogo/Core
+bin/cake ext activate theme Vamshop/Core
 
 
 or you can activate themes from Admin - Extensions - Themes

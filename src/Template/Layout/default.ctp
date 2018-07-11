@@ -1,6 +1,6 @@
 <?php
 /**
- * MaterializeCSS Theme for Croogo CMS
+ * MaterializeCSS Theme for Vamshop CMS
  *
  * @author Maicon Pinto <maiconsilva.pinto@gmail.com>
  * @link http://www.maiconpinto.com.br

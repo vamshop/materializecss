@@ -22,9 +22,11 @@
     },
     "scripts": {
         "post-install-cmd": [
+            "bower install",
             "yarn install --modules-folder webroot"
         ],
         "post-update-cmd": [
+            "bower install",
             "yarn install --modules-folder webroot"
         ]
     }

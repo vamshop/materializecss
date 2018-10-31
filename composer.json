@@ -4,7 +4,8 @@
     "type": "cakephp-plugin",
     "require": {
         "php": ">=5.5.9",
-        "cakephp/cakephp": ">=3.3.2 <4.0.0"
+        "cakephp/cakephp": "~3.2",
+        "vamshop/vamshop-core": "^3.0.0"
     },
     "require-dev": {
         "phpunit/phpunit": "*"
@@ -22,9 +23,12 @@
     },
     "scripts": {
         "post-install-cmd": [
-            "yarn install --modules-folder webroot/node_modules"
-        ],
-        "post-update-cmd": [
+	    "yarn install --modules-folder webroot/node_modules"
+	],
+        "post-create-project-cmd": [
+	    "yarn install --modules-folder webroot/node_modules"
+	],
+        "post-autoload-dump": [
             "yarn install --modules-folder webroot/node_modules"
         ]
     }

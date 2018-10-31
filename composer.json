@@ -22,10 +22,8 @@
     },
     "scripts": {
         "post-install-cmd": [
-            "yarn install --modules-folder webroot"
         ],
         "post-update-cmd": [
-            "yarn install --modules-folder webroot"
         ]
     }
 }
